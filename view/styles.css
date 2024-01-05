@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000; 
+
+}
+
+canvas {
+  border: 1px solid white;
+  display: block;
+  margin: 20px auto;
+}
+
+#breakoutCanvas {
+  position: relative;
+}
+
+.login{
+  color: white;
+}
+
+
+
+input.buttons {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
